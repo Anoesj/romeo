@@ -1,0 +1,22 @@
+{
+  "name": "romeo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@microsoft/sarif-multitool": "^5.0.10",
+    "@types/bun": "latest",
+    "@types/sarif": "^2.1.7"
+  },
+  "scripts": {
+    "test": "bun test",
+    "coverage": "bun test --coverage",
+    "check:example": "bun run index.ts --file examples/complexity_demo.jl"
+  },
+  "dependencies": {
+    "@microsoft/sarif-multitool-linux": "^5.0.10"
+  },
+  "trustedDependencies": [
+    "@microsoft/sarif-multitool-linux"
+  ]
+}
