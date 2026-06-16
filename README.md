@@ -32,4 +32,4 @@ bun run index.ts --file mycode.jl > results.sarif
 |---|---|
 | `bun run test` | Run the test suite |
 | `bun run coverage` | Run tests with coverage report |
-| `bun run check:example` | Run against `examples/loops_map.jl` |
+| `bun run check:example` | Run against `examples/complexity_demo.jl` |
