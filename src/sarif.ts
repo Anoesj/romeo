@@ -35,7 +35,6 @@ export function buildSarifLog(filePath: string, issues: ComplexityIssue[], thres
         tool: {
           driver: {
             name: "romeo",
-            // Replace with the real project URL once published
             informationUri: "https://github.com/anoesj/romeo",
             rules: [rule],
           },
